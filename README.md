@@ -12,3 +12,5 @@ DOWNLOAD_DIR="./files/"     # set files dir
 ```
 
 `DOWNLOAD_DIR` param must end with `/` for predictable usage
+
+`swagger-ui-bundle.js` is downloaded because some time its is unreachable.
