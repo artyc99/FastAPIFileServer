@@ -1,0 +1,11 @@
+<div class="files">
+    <div class="root-path">ROOT PATH {{base_path}}</div>
+    {% for file_path in files_path %}
+    <div class="file">
+        <a href="./{{file_path}}/" class="file">{{file_path}}</a>
+    </div>
+    {% endfor %}
+    <div class="error">
+        Error: {{error}}
+    </div>
+</div>
